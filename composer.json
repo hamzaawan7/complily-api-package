@@ -1,0 +1,28 @@
+{
+    "name": "communication-marketplaces/multi-api-integrations",
+    "description": "A unified Laravel package to manage authentication, data synchronization, and API requests across various third-party services.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CommunicationMarketplaces\\UnifiedApiIntegrations\\": "src/CommunicationMarketplaces/UnifiedApiIntegrations/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CommunicationMarketplaces\\UnifiedApiIntegrations\\Providers\\IntegrationServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamza Awan"
+        }
+    ],
+    "minimum-stability": "stable"
+}
