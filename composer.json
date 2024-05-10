@@ -9,7 +9,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CommunicationMarketplaces\\OAuthService\\": "src/"
+            "CommunicationMarketplaces\\UnifiedApiIntegrations\\": "src/CommunicationMarketplaces/UnifiedApiIntegrations/"
+
         }
     },
     "extra": {
