@@ -30,9 +30,8 @@ class IntegrationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Optionally publish configuration files, or skip if unnecessary
-        // $this->publishes([
-        //     __DIR__ . '/../Config/integrations.php' => config_path('integrations.php')
-        // ], 'config');
+        $this->publishes([
+            __DIR__ . '/../Config/oauth_service.php' => config_path('oauth_service.php')
+        ], 'config');
     }
 }
