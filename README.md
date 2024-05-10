@@ -7,4 +7,4 @@
 2. Publish Configuration
 
  ```bash
-   php artisan vendor:publish --provider="CommunicationMarketplaces\\UnifiedApiIntegrations\\Providers\\IntegrationServiceProvider" --tag="config"
+   php artisan vendor:publish --provider="CommunicationMarketplaces\\OAuthService\\Providers\\IntegrationServiceProvider" --tag="config"
