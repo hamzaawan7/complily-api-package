@@ -2,7 +2,7 @@
 
 1. Install dependencies:
    ```bash
-   composer require hamzaawan7/complily-api-package
+   composer require communication-marketplaces/multi-api-integrations
 
 2. Publish Configuration
 
