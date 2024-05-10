@@ -3,7 +3,7 @@
     "description": "A unified Laravel package to manage authentication, data synchronization, and API requests across various third-party services.",
     "type": "library",
     "require": {
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.0|^9.0|^10.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "license": "MIT",
