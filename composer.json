@@ -21,7 +21,11 @@
     },
     "authors": [
         {
-            "name": "Hamza Awan"
+            "name": "Hamza Awan",
+            "email": "hamzaawan@example.com",
+            "homepage": "https://github.com/hamzaawan7"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
