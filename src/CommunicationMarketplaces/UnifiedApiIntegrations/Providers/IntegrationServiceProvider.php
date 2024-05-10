@@ -1,9 +1,9 @@
 <?php
 
-namespace CommunicationMarketplaces\OAuthService\Providers;
+namespace CommunicationMarketplaces\UnifiedApiIntegrations\Providers;
 
-use CommunicationMarketplaces\UnifiedApiIntegrations\Services\OAuthService;
 use Illuminate\Support\ServiceProvider;
+use CommunicationMarketplaces\UnifiedApiIntegrations\Services\OAuthService;
 
 class IntegrationServiceProvider extends ServiceProvider
 {
